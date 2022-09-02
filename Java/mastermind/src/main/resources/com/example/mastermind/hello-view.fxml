@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mastermind.HelloController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebcbfc" height="113.0" layoutY="457.0" stroke="BLACK" strokeType="INSIDE" width="300.0" AnchorPane.bottomAnchor="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" stroke="BLACK" strokeType="INSIDE" width="300.0" AnchorPane.bottomAnchor="636.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Circle fx:id="c11" fill="WHITE" layoutX="88.0" layoutY="23.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="71.0" />
+      <Circle fx:id="c12" fill="WHITE" layoutX="130.0" layoutY="23.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c13" fill="WHITE" layoutX="171.0" layoutY="23.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c14" fill="WHITE" layoutX="213.0" layoutY="23.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="14.0" layoutY="15.0" text="Guess1" AnchorPane.leftAnchor="18.0" />
+      <Label fx:id="a1" layoutX="245.0" layoutY="7.0" text="a :" />
+      <Label fx:id="b1" layoutX="245.0" layoutY="24.0" text="b :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="300.0" AnchorPane.leftAnchor="0.0" />
+      <Circle fx:id="c21" fill="WHITE" layoutX="88.0" layoutY="69.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="71.0" />
+      <Circle fx:id="c22" fill="WHITE" layoutX="130.0" layoutY="69.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="113.0" />
+      <Circle fx:id="c23" fill="WHITE" layoutX="171.0" layoutY="69.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c24" fill="WHITE" layoutX="213.0" layoutY="69.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="18.0" layoutY="61.0" text="Guess2" AnchorPane.leftAnchor="18.0" />
+      <Label fx:id="a2" layoutX="245.0" layoutY="53.0" text="a :" />
+      <Label fx:id="b2" layoutX="245.0" layoutY="70.0" text="b :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" layoutX="-3.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" width="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="92.0" />
+      <Circle fx:id="c31" fill="WHITE" layoutX="92.0" layoutY="115.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="71.0" />
+      <Circle fx:id="c32" fill="WHITE" layoutX="130.0" layoutY="115.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="113.0" />
+      <Circle fx:id="c33" fill="WHITE" layoutX="171.0" layoutY="115.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c34" fill="WHITE" layoutX="213.0" layoutY="115.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="18.0" layoutY="107.0" text="Guess3" AnchorPane.leftAnchor="18.0" />
+      <Label fx:id="a3" layoutX="245.0" layoutY="99.0" text="a :" />
+      <Label fx:id="b3" layoutX="245.0" layoutY="116.0" text="b :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Circle fx:id="c41" fill="WHITE" layoutX="88.0" layoutY="161.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c42" fill="WHITE" layoutX="130.0" layoutY="161.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c43" fill="WHITE" layoutX="171.0" layoutY="161.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c44" fill="WHITE" layoutX="213.0" layoutY="161.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="18.0" layoutY="153.0" text="Guess4" />
+      <Label fx:id="a4" layoutX="245.0" layoutY="144.0" text="a :" />
+      <Label fx:id="b4" layoutX="245.0" layoutY="161.0" text="b :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" layoutY="184.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Circle fx:id="c51" fill="WHITE" layoutX="88.0" layoutY="207.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c52" fill="WHITE" layoutX="130.0" layoutY="207.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c53" fill="WHITE" layoutX="171.0" layoutY="207.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c54" fill="WHITE" layoutX="213.0" layoutY="207.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="18.0" layoutY="199.0" text="Guess5" />
+      <Label fx:id="a5" layoutX="245.0" layoutY="190.0" text="a :" />
+      <Label fx:id="b5" layoutX="245.0" layoutY="207.0" text="b :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Circle fx:id="c61" fill="WHITE" layoutX="88.0" layoutY="253.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c62" fill="WHITE" layoutX="130.0" layoutY="253.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c63" fill="WHITE" layoutX="171.0" layoutY="253.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c64" fill="WHITE" layoutX="213.0" layoutY="253.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="18.0" layoutY="245.0" text="Guess6" />
+      <Label fx:id="a6" layoutX="245.0" layoutY="236.0" text="a :" />
+      <Label fx:id="b6" layoutX="245.0" layoutY="253.0" text="b :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" layoutY="276.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Circle fx:id="c71" fill="WHITE" layoutX="88.0" layoutY="299.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c72" fill="WHITE" layoutX="130.0" layoutY="299.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c73" fill="WHITE" layoutX="171.0" layoutY="299.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c74" fill="WHITE" layoutX="213.0" layoutY="299.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="18.0" layoutY="291.0" text="Guess7" />
+      <Label fx:id="a7" layoutX="245.0" layoutY="282.0" text="a :" />
+      <Label fx:id="b7" layoutX="245.0" layoutY="299.0" text="b :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Circle fx:id="c81" fill="WHITE" layoutX="88.0" layoutY="345.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c82" fill="WHITE" layoutX="130.0" layoutY="345.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c83" fill="WHITE" layoutX="171.0" layoutY="345.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c84" fill="WHITE" layoutX="213.0" layoutY="345.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="18.0" layoutY="337.0" text="Guess8" />
+      <Label fx:id="a8" layoutX="245.0" layoutY="328.0" text="a :" />
+      <Label fx:id="b8" layoutX="245.0" layoutY="345.0" text="b :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" layoutY="368.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Circle fx:id="c91" fill="WHITE" layoutX="88.0" layoutY="391.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c92" fill="WHITE" layoutX="130.0" layoutY="391.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c93" fill="WHITE" layoutX="171.0" layoutY="391.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c94" fill="WHITE" layoutX="213.0" layoutY="391.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="18.0" layoutY="383.0" text="Guess9" />
+      <Label fx:id="a9" layoutX="245.0" layoutY="374.0" text="a :" />
+      <Label fx:id="b9" layoutX="245.0" layoutY="391.0" text="b :" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6e4ff" height="46.0" layoutY="414.0" stroke="BLACK" strokeType="INSIDE" width="300.0" />
+      <Circle fx:id="c101" fill="WHITE" layoutX="88.0" layoutY="437.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c102" fill="WHITE" layoutX="130.0" layoutY="437.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c103" fill="WHITE" layoutX="171.0" layoutY="437.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c104" fill="WHITE" layoutX="213.0" layoutY="437.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="18.0" layoutY="429.0" text="Guess10" />
+      <Label fx:id="a10" layoutX="245.0" layoutY="420.0" text="a :" />
+      <Label fx:id="b10" layoutX="245.0" layoutY="437.0" text="b :" />
+      <Button fx:id="check_btn" layoutX="198.0" layoutY="481.0" mnemonicParsing="false" onAction="#checkBtn" prefHeight="25.0" prefWidth="65.0" text="Check" AnchorPane.rightAnchor="233.0" />
+      <Button fx:id="clear_btn" layoutX="198.0" layoutY="523.0" mnemonicParsing="false" onAction="#clearBtn" prefHeight="25.0" prefWidth="65.0" text="Clear" AnchorPane.rightAnchor="233.0" />
+      <Button fx:id="generate_btn" layoutX="321.0" layoutY="524.0" mnemonicParsing="false" onAction="#secretGenerator" prefHeight="25.0" prefWidth="65.0" text="Generate" AnchorPane.rightAnchor="110.0" />
+      <Button fx:id="exit_btn" layoutX="411.0" layoutY="524.0" mnemonicParsing="false" onAction="#exitBtn" prefHeight="25.0" prefWidth="65.0" text="Exit" AnchorPane.rightAnchor="20.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="40.0" layoutX="37.0" layoutY="473.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Button layoutX="45.0" layoutY="481.0" mnemonicParsing="false" onAction="#redBtn" prefHeight="20.0" prefWidth="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffad00" height="40.0" layoutX="79.0" layoutY="473.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Button layoutX="87.0" layoutY="481.0" mnemonicParsing="false" onAction="#orangeBtn" prefHeight="20.0" prefWidth="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfc00" height="40.0" layoutX="121.0" layoutY="473.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Button layoutX="129.0" layoutY="481.0" mnemonicParsing="false" onAction="#yellowBtn" prefHeight="20.0" prefWidth="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00fa2a" height="40.0" layoutX="37.0" layoutY="515.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Button layoutX="45.0" layoutY="523.0" mnemonicParsing="false" onAction="#greenBtn" prefHeight="20.0" prefWidth="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fc1ff" height="40.0" layoutX="79.0" layoutY="515.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Button layoutX="87.0" layoutY="523.0" mnemonicParsing="false" onAction="#blueBtn" prefHeight="20.0" prefWidth="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a01fff" height="40.0" layoutX="121.0" layoutY="515.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Button layoutX="129.0" layoutY="523.0" mnemonicParsing="false" onAction="#purpleBtn" prefHeight="20.0" prefWidth="25.0" />
+      <Label layoutX="347.0" layoutY="48.0" prefHeight="27.0" prefWidth="105.0" text="MasterMind">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextArea layoutX="307.0" layoutY="105.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="184.0" text=" - To strat playing, click on &#10;&quot;Generate&quot; and start guessing&#10;by choosing the colors from &#10;the color palette.&#10;&#10;- To clear the current row,&#10;click on &quot;Clear&quot;.&#10;&#10;- To start a new game, &quot;Exit&quot;&#10;the game and reopen it.&#10;&#10;&#10;Good luck!&#10;&#10;&#10;" AnchorPane.rightAnchor="5.0" />
+      <Circle fx:id="secret1" fill="WHITE" layoutX="394.0" layoutY="474.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="88.0" />
+      <Circle fx:id="secret2" fill="WHITE" layoutX="415.0" layoutY="474.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="88.0" />
+      <Circle fx:id="secret3" fill="WHITE" layoutX="435.0" layoutY="474.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="88.0" />
+      <Circle fx:id="secret4" fill="WHITE" layoutX="455.0" layoutY="474.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="88.0" />
+      <Label layoutX="336.0" layoutY="465.0" text="Secret:" />
+      <Label fx:id="status_lab" layoutX="339.0" layoutY="420.0" />
+   </children>
+</AnchorPane>
